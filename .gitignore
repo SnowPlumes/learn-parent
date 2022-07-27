@@ -1,6 +1,10 @@
 # Compiled class file
 *.class
 
+# idea
+.idea/
+target/
+
 # Log file
 *.log
 
@@ -18,6 +22,14 @@
 *.zip
 *.tar.gz
 *.rar
+
+# mvn
+.mvn/
+mvnw
+*.cmd
+
+# mac
+.DS_Store
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
