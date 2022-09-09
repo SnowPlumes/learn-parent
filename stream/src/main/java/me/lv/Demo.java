@@ -2,15 +2,20 @@ package me.lv;
 
 import com.google.common.collect.Lists;
 
-import java.math.BigDecimal;
-import java.util.*;
+import java.util.List;
+import java.util.Random;
 
 /**
- * @author plume
- * @date 2021/8/19 14:22
+ * @author zerozero
+ * @date 2022/7/27
  */
-public class StreamTest {
+public class Demo {
+
     public static void main(String[] args) {
+        test();
+    }
+
+    private static void test() {
         int size = 1_000_000;
         List<Integer> list = Lists.newArrayListWithCapacity(size);
         Random random = new Random();

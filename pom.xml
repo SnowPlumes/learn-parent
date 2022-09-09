@@ -15,6 +15,7 @@
         <module>other-test</module>
         <module>learn-classloader</module>
         <module>learn-rabbit</module>
+        <module>stream</module>
     </modules>
 
     <properties>
@@ -78,6 +79,16 @@
             <groupId>com.rabbitmq</groupId>
             <artifactId>amqp-client</artifactId>
             <version>5.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.4</version>
         </dependency>
     </dependencies>
 
