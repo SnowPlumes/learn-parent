@@ -1,6 +1,6 @@
 package me.lv;
 
-import org.modelmapper.ModelMapper;
+import cn.hutool.core.util.IdUtil;
 
 /**
  * @author plume
@@ -8,9 +8,7 @@ import org.modelmapper.ModelMapper;
  */
 public class Test {
     public static void main(String[] args) {
-        ModelMapper modelMapper = new ModelMapper();
-        modelMapper.getConfiguration().setSkipNullEnabled(true);
-
+        System.out.println(IdUtil.getSnowflakeNextId());
     }
 
 }
